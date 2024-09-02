@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+:root {
+    --color-terminal: #292b36;
+    --borde-redondo: 4px;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c4b7a;
+    color: white;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+main {
+    width: 350px;
+    height: 200px;
+    padding: 25px;
+    box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+    border-radius: var(--borde-redondo);
+}
+
+h1 {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-container {
+    width: 200px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #292b36;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container input{
+    text-align: center;
+    width: 190px;
+    height: 20px;
+}
+
+.login-container h1{
+    color: #fff;
+    text-align: center;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c4b7a;
+    color: white;
+    border-radius: 4px;
+}
+
+.login-button {
+    padding: 10px;
+    width: 60%;
+    background-color: #5af78d;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #4fe074;
+}
+
+/* Estilos para la sección de Criptografía */
+#cryptography-input, #resultado {
+    background-color: var(--color-terminal);
+    width: -webkit-fill-available;
+}
+
+#cryptography-input {
+    margin: 10px 0 0;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: var(--borde-redondo);
+    border-top-right-radius: var(--borde-redondo);
+}
+
+#resultado {
+    height: 20px;
+    color: #5af78d;
+    padding: 0 10px 10px;
+    border-bottom-left-radius: var(--borde-redondo);
+    border-bottom-right-radius: var(--borde-redondo);
+}
+
+.til2{
+    margin-top: 10px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    border-radius: var(--borde-redondo);
+    background: var(--color-terminal);
+    margin: 0;
+    padding: 0 5px;
+    height: 20px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: white;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.cripto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.entra1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botun{
+    background: #5af78d;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clave input{
+    text-align: center;
+}
+
+
+/* Estilos para la pantalla de detalle del movimiento */
+.clock-container {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    color: #fff;
+}
+
+.info-container{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container box-icon{
+    margin-bottom: 4px;
+    margin-right: 2px;
+}
+
+.phone-frame {
+    width: 380px;
+    height: 770px;
+    position: relative;
+    background-color: #ffffff;
+}
+.container {
+    padding: 15px;
+    padding-top: 40px;
+    background-color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.titulo-1 span{
+    display: flex;
+}
+
+.info {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.plata label{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: -15px;
+    
+}
+.info label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #333;
+    display: block;
+}
+
+.info input {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.dispo input{
+    width: 50%;
+}
+.status{
+    color: #DA0081;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 17px;
+    margin-top: 18px;
+}
+
+.bi{
+    color: #DA0081;
+}
+
+.plata {
+    margin-left: 1px;
+    font-size: 15px;
+    color: #8c8b8b;
+    border: none;
+}
+
+.pla input{
+    border: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    margin-top: 15px;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.card div {
+    width: 100%;
+}
+.problem {
+    color: #ea259b;
+    margin-top: 150px;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.boton-salida{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.top-bar span {
+    font-size: 16px;
+}

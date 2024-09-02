@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Movimiento</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+     <!-- Pantalla de Criptografía -->
+     <div id="cryptography-screen">
+        <main>
+            <h1 class="cripto">Criptografía</h1>
+            
+            <form class="clave" id="cryptography-form" autocomplete="off">
+                <input id="cryptography-input" spellcheck="false" placeholder="Ingrese la palabra clave" type="text" name="text">
+                <div id="resultado"></div>
+                <h1 class="til2">"BUENA SUERTE"</h1>
+                <div class="entra1">
+                    <button class="botun" type="submit">Entrar</button>
+                </div>
+            </form>
+            
+        </main>
+    </div>
+
+    <!-- Pantalla de Inicio de Sesión (oculta por defecto) -->
+    <div id="login-screen" class="hidden">
+            
+        <div class="login-container">
+            <h1>Ingrese las claves</h1>
+            <input type="password" id="password" placeholder="Palabra 1" class="login-input">
+            <input type="password" id="password2" placeholder="Palabra 2" class="login-input">
+            <input type="password" id="password3" placeholder="Palabra 3" class="login-input">
+            <button id="login-btn" class="login-button">Entrar</button>
+        </div>
+    </div>
+
+<!-- Pantalla de Detalle del Movimiento (Oculta por defecto) -->
+<div id="compro-screen" class="hidden phone-frame">
+    <div class="top-bar">
+        <div class="clock-container">
+            <div id="clock"></div>
+        </div>
+        <div class="info-container">
+            <div id="wifi-status" class="status-icon"></div>
+            
+            <div id="battery-status" class="status-icon"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="titulo-1">Detalle del <span>movimiento</span></h1>
+        <span class="status"><box-icon name='down-arrow-circle' color='#DA0081' size="sm"></box-icon> Envío Realizado</span>
+        <div class="info">
+            <label>Para</label>
+            <input type="text" value="Wilson Rios Rios">
+        </div>
+        <div class="info">
+            <label>¿Cuánto?</label>
+            <input type="text" value="$10.000,00">
+        </div>
+        <div class="info">
+            <label>Número Nequi</label>
+            <input type="text" value="305 445 6343">
+        </div>
+        <div class="info">
+            <label>Fecha</label>
+            <input type="text" value="30 de agosto de 2024 a las 12:22 p. m.">
+        </div>
+        <div class="info">
+            <label>Referencia</label>
+            <input type="text" value="M4659190">
+        </div>
+        <div class="pla plata">
+            <p class="plata">¿De dónde salió la plata?</p>
+            <div class="card">
+                <img src="img/Captura de pantalla 2024-08-30 182904.png" alt="Icon">
+                <div>
+                    <input type="text" value="Disponible" style="font-weight:bold;"><br>
+                    <input type="text dispo" value="$10.000,00">
+                </div>
+            </div>
+        </div>
+        <a href="#" class="problem" id="download-btn">¿Algún problema con este movimiento?</a>
+        <div class="boton-salida">
+            <box-icon name='square-rounded' type='solid' color='#9e999c' size="csssize"></box-icon>
+            <box-icon class="cir1" name='radio-circle-marked' color='#9e999c' size="md"></box-icon>
+            <box-icon name='left-arrow' type='solid' color='#9e999c' ></box-icon>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script  type =  " module" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " ></script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " ></script>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="JS/script.js"></script>
+</body>
+</html>
