@@ -184,7 +184,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .phone-frame {
     width: 380px;
-    height: 770px;
+    height: 750px;
     position: relative;
     background-color: #ffffff;
 }
@@ -299,7 +299,7 @@ h1 {
 }
 .problem {
     color: #d6208d;
-    margin-top: 150px;
+    margin-top: 110px;
     display: block;
     text-align: center;
     font-size: 13px;
@@ -310,8 +310,8 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    margin-top: 10px;
-    padding-top: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
     align-items: center;
 }
 
