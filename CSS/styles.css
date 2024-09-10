@@ -201,6 +201,10 @@ h1 {
     color: #333;
 }
 
+.titulo-1{
+    font-weight: 700;
+}
+
 .titulo-1 span{
     display: flex;
 }
