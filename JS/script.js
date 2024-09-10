@@ -100,7 +100,7 @@ const login = () => {
 
 // Función para validar la palabra clave de criptografía
 const checkCryptographyPassword = (password) => {
-    return password.toLowerCase() === 'h';
+    return password.toLowerCase() === 'Messi';
 }
 
 // Función para manejar el formulario de criptografía
